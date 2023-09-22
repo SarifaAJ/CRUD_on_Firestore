@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CRUDOnFirestore" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CRUDOnFirestore" parent="Base.Theme.CRUDOnFirestore" />
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextView1">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/textView</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="TextView1_2">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/textView</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="TextView2">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/textView</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="TextView3">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/great_vibes</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_28sdp</item>
+    </style>
+
+</resources>

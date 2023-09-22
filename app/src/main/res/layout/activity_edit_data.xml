@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp"
+    android:background="@color/cardView"
+    tools:context=".ui.EditDataActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_16sdp">
+
+        <ImageButton
+            android:id="@+id/btn_back_arrow"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/round_arrow_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/edit_student_data"
+            style="@style/TextView2"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/NIS"
+        style="@style/TextView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:text="@string/nis" />
+
+    <EditText
+        android:id="@+id/edt_NIS"
+        style="@style/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rectangle_tab"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/question_nis"
+        android:inputType="number"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        style="@style/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rectangle_tab"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/question_name"
+        android:inputType="text"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/gender"
+        style="@style/TextView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:text="@string/gender" />
+
+    <EditText
+        android:id="@+id/edt_gender"
+        style="@style/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rectangle_tab"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/question_gender"
+        android:inputType="text"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/religion"
+        style="@style/TextView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:text="@string/religion" />
+
+    <EditText
+        android:id="@+id/edt_religion"
+        style="@style/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rectangle_tab"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/question_religion"
+        android:inputType="text"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/birth_date"
+        style="@style/TextView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:text="@string/birth_date" />
+
+    <EditText
+        android:id="@+id/edt_birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rectangle_tab"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/_8sdp"
+        android:ems="10"
+        android:hint="@string/question_birth_date"
+        android:inputType="date"
+        android:textColorHint="@color/grey"
+        style="@style/TextView1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/update_btn"
+            style="@style/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:text="@string/update" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            style="@style/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/red"
+            android:text="@string/delete" />
+    </LinearLayout>
+</LinearLayout>

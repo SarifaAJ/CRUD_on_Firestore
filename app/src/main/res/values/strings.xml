@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CRUD on Firestore</string>
+    <string name="main_title">Trinisette Academy</string>
+
+    <string name="nis">NIS</string>
+    <string name="name">Nama</string>
+    <string name="gender">Gender</string>
+    <string name="religion">Agama</string>
+    <string name="birth_date">Tanggal Lahir</string>
+
+    <string name="student_data">Data Siswa</string>
+    <string name="question_T2">Hapus</string>
+    <string name="question_2">Apakah Anda yakin ingin menghapus item ini?</string>
+    <string name="question_T3">Kembali</string>
+    <string name="question_3">Apakah anda yakin akan membuang perubahan ini?</string>
+
+    <string name="add_student_data">Tambahkan Data Siswa</string>
+    <string name="edit_student_data">Edit Data Siswa</string>
+
+    <string name="question_nis">Masukkan NIS anda disini</string>
+    <string name="question_name">Masukkan nama anda disini</string>
+    <string name="question_gender">Masukkan gender anda disini</string>
+    <string name="question_religion">Masukkan agama anda disini</string>
+    <string name="question_birth_date">Masukkan tanggal lahir anda disini</string>
+
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+    <string name="title">Ciao</string>
+    <string name="text">Message</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+
+</resources>
